@@ -19,7 +19,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 However, when diving deeper to view each lot individually, we can see that Lot 3 has variances of 170 pounds per square inch, which is signficantly outside of the required guidance.
 
-![Lot Summary](/Lot_Summary.png)
+![Lot Summary](/Lot_summary.png)
 
 ## T-Tests on Suspension Coils
 
