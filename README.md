@@ -2,17 +2,24 @@
 
 ## Linear Regression to Predict MPG
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+The goal of this analysis was to determine which variables had the greatest impact on a car's fuel efficiency. The results how that both ground clearance and vehicle length have the highest correlative effect on fuel economy.
 
-Is the slope of the linear model considered to be zero? Why or why not?
+![LM Summary](/Deliv_1_Summary.png)
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The slope of this model is not zero, as we are able to fit a trend line to the data with some of the identified variables, indicating a causal relationship.
+
+This model overall has a good level of predictive power, as indicated by the R-squared values of around 70%.
 
 
 ## Summary Statistics on Suspension Coils
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Overall, we're seeing an average variance of 62 pounds per square inch, which is within the required tolerance.
 
+![Total Summary](/PSI_Summary.png)
+
+However, when diving deeper to view each lot individually, we can see that Lot 3 has variances of 170 pounds per square inch, which is signficantly outside of the required guidance.
+
+![Lot Summary](/Lot_Summary.png)
 
 ## T-Tests on Suspension Coils
 
