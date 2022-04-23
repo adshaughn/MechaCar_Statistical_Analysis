@@ -23,13 +23,23 @@ However, when diving deeper to view each lot individually, we can see that Lot 3
 
 ## T-Tests on Suspension Coils
 
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+The analysis then proceded to perform a one-sample t-test on suspension coil data. We were able to determine that the true mean of the data lies within a window between 1497.5 and 1500, with a confidence of .06.
+
+![T-test Suspension Coils](/All_versus_mean.png)
+
+Diving deeper and viewing each lot individually, we can see that Lot 1 has an average mean PSI of 1500 with 100% confidence, Lot 2 also likely has a mean PSI of 1500, and Lot 3 has the highest variability in its mean PSI
+
+![T-test Lot 1](ttest_lot1.png)
+![T-test Lot 2](ttest_lot2.png)
+![T-test Lot 3](ttest_lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+When thinking about designing a study to evaluate MechaCar compared to other vehicles on the market, it is important to focus on factors that matter to consumers. These include performance metrics like MPG and horsepower, as well as crash-safety and overall reliability. For example:
+
+- MPG, city and highway
+- Horsepower
+- Crash-safety ratings from NHTSA
+- Reliablity (aka, how many "maintenance incidents" does the vehicle have over its lifetime, measured by appointments at service centers)
+
+All of this data should be available internally from MechaCar, as well as from public-faching databases at government organizations like the NHTSA and EPA.
